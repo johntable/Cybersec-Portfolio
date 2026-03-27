@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15ad615e43007c26",
+        "id": "9b01fc460979af9a",
         "type": "tabs",
         "children": [
           {
-            "id": "5c31974fe4c19379",
+            "id": "cd444c909241a66e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,9 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5c31974fe4c19379",
+  "active": "cd444c909241a66e",
   "lastOpenFiles": [
     "certificates/CompTIA Security+ ce certificate.pdf",
+    "README.md",
     "certificates",
     "lab_write_ups",
     "Certs/CompTIA Security+ ce certificate.pdf",
