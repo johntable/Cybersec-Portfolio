@@ -1,3 +1,5 @@
 # Cybersec-Portfolio
 
-My name is John. I am a highly analytical Cybersecurity student actively looking to develop my skills as a security analysts. I believe my experience working in fast-paced environments and with AGILE methodologies can help uphold digital integrity and protect company assets. 
+My name is John Tabelisma. I have recently graduated from Lipscomb University with a Major in Cybersecurity and a Minor in Software Engineering. In this portfolio, you'll find write-ups about various labs I've done on my journey to improving my cybersecurity skills.
+
+LinkedIn: https://www.linkedin.com/in/john-tabelisma/
