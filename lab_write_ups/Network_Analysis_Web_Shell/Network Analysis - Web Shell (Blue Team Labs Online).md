@@ -1,26 +1,33 @@
 ## John Tabelisma
+
 ### Scenario Overview from BTLO:
 	The SOC received an alert in their SIEM for 'Local to Local Port Scanning' where an internal private IP began scanning another internal system. Can you investigate and determine if this activity is malicious or not? You have been provided a PCAP, investigate using any tools you wish.
+
 ### Objectives:
 - Analyze network traffic for suspicious activity and any IOCs
 - Detect attacker behavior
 - Identify exploitation techniques
 - Reconstruct attack chain
+
 ### Tools Used:
 - Wireshark
 - Burp Suite Community ed.
 <div style="page-break-after: always;"></div>
+
 ### Notes:
 #### PCAP properties:
+
 ![[Pasted image 20260327144722.png]]
 	Capture was 15 minutes and took place between 11:31 UTC and 11:46 UTC on July 2, 2021*.
 	\*Note: PCAP Properties page shows time in UTC, while the following screenshots show time in local (five hours ahead)
 #### IPv4 Conversations:
+
 ![[Pasted image 20260327151144.png]]
 	Conversations to note: 10.251.96.4 -> 10.251.96.5 and 172.20.10.5 -> 172.20.10.2 transferred the largest amounts of bytes. The margin is significantly larger compared to the rest of the conversations.
 	
 
 #### TCP Conversations:
+
 - **10.251.96.4 -> 10.251.96.5** had over 50 TCP convos of 118 bytes each one over a different port.
 	- The only two conversations that had different amount of bytes (184 bytes) were ports 80 (HTTP) and 22 (SSH) meaning that **10.251.96.5** had those ports open
 	- What follows is a lot of activity over port 80 with varying amounts of bytes being exchanged.
@@ -30,6 +37,7 @@
 	- Possible C&C servers
 
 #### Inspecting Packets
+
 Packet #38 **172.20.10.5 -> 172.20.10.2**
 - **172.20.10.5** ID'd as a Ubuntu Web Server
 - **172.20.10.2** ID'd as a Windows PC
