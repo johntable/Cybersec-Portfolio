@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "ELK Stack Notes"
             }
+          },
+          {
+            "id": "4fe8e32f68f965c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab_write_ups/MYDFIR_30day/Day_3/Elastichsearch Setup Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Elastichsearch Setup Notes"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e01d7d586b21dedc",
@@ -198,8 +211,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "1fab11fdbb34062b",
+  "active": "4fe8e32f68f965c6",
   "lastOpenFiles": [
+    "lab_write_ups/MYDFIR_30day/Day_2/ELK Stack Notes.md",
+    "lab_write_ups/MYDFIR_30day/Day_3/Elastichsearch Setup Notes.md",
+    "Untitled",
+    "lab_write_ups/MYDFIR_30day/Day_27/Untitled.md",
     "lab_write_ups/Network_Analysis_Web_Shell/Network Analysis - Web Shell (Blue Team Labs Online).md",
     "Pasted image 20260414153521.png",
     "lab_write_ups/Network_Analysis_Web_Shell/Network Analysis - Web Shell (Blue Team Labs Online).pdf",
@@ -212,7 +229,6 @@
     "images/Pasted image 20260327151522.png",
     "images/Pasted image 20260327151144.png",
     "images/Pasted image 20260327144722.png",
-    "lab_write_ups/MYDFIR_30day/Day_2/ELK Stack Notes.md",
     "README.md",
     "lab_write_ups/MYDFIR_30day/Day_30",
     "lab_write_ups/MYDFIR_30day/Day_29",
@@ -222,7 +238,6 @@
     "lab_write_ups/MYDFIR_30day/Day_25",
     "lab_write_ups/MYDFIR_30day/Day_24",
     "lab_write_ups/MYDFIR_30day/Day_23",
-    "lab_write_ups/MYDFIR_30day/Day_22",
     "Untitled.canvas",
     "2026-04-10.md",
     "Untitled 1.md",
